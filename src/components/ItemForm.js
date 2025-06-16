@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ItemForm({ onAddItem }) {
+const ItemForm = ({ onAddItem }) => {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("Produce");
 

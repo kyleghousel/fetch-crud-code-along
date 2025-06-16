@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import Header from "./Header";
 
-function App() {
+const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   function handleDarkModeClick() {
